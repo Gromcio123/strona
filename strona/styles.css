@@ -1,4 +1,4 @@
-/* styles.css */
+
 body {
     font-family: 'Verdana', sans-serif;
     margin: 0;
@@ -61,7 +61,7 @@ footer {
     margin-top: 30px;
 }
 
-/* Zaokrąglenia rogów i cień */
+
 section {
     background: #ffffff;
     padding: 25px;
@@ -71,13 +71,13 @@ section {
     max-width: 700px;
 }
 
-/* Efekt przezroczystości */
+
 section:hover {
     opacity: 0.95;
     transition: opacity 0.3s;
 }
 
-/* Stylizacja formularza */
+
 form {
     display: flex;
     flex-direction: column;
@@ -147,6 +147,6 @@ button:active {
 }
 
 .gallery img:hover {
-    transform: scale(1.1); /* Powiększa zdjęcie o 10% */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Dodaje cień do zdjęcia */
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
 }
